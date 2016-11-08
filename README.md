@@ -1,40 +1,43 @@
-In this folder we will contain programs that manipulate the grippers of the Baxter robot.
+    In this folder we will contain programs that manipulate the grippers of the Baxter robot.
 
-Code will be organized by type of gripper. So far we have the following types:
+# Overview
 
-1. Rethink Standard Fingers:   2 finger electric grippers that come with Baxter.
-2. Pivot Approach Camera Mold: Specialized end-effector tool that holds camera molds. Derived from the openhand project. Still uses the standard actuators.
-3. Openhand Project:
-4. Yale Open Hand Project: 
-
-
-/Soliworks_files
-    /endEffector
-        /male&female_holder
-        /snapAssembly_CameraGrippers-DesignFiles
-            /hand for female part(3DP)
-            /hand for male part(3DP)
-            /siatGripper(sourcefile)
-            
-    /Forcesensor_Eletricgripper
-    /ForceSensor_SakeGripper
+    Code will be organized by type of gripper. So far we have the following types:
     
-    
-/STLs
-    /Forcesensor_Eletricgripper
-    /ForceSensor_SakeGripper
-    /hand for female 
-    /hand for male part
-    
-    
-    
-/URDFs
+    1. Rethink Standard Fingers:   two-finger electric grippers that come with Baxter.
+    2. Pivot Approach Camera Mold: Specialized end-effector tool that holds camera molds. Derived from the openhand project. Still uses the standard actuators.
+    3. Openhand Project:
+    4. Yale Open Hand Project: 
 
-/camera_female
+# Motivation
+
+    Providing some solution adapting on gripper of baxter rethink robot,including mounting Force torque sensor on baxter hands with saker gripper and electric gripper,camera holer design and camera gripper
 
 
-hello
-=====
+# Files Composition
+
+    .
+    +--solid_file                   solidworks file folder
+    |   +--endEffectors                
+    |   |   +--camera_gripper            camera frame with both  Openhand Project and birl design
+    |   |   +--holder                    Pivot Approach Camera Mold 
+    |   +--ft_eletric_gripper            electric gripper with force torque sensor 
+    |   +--ft_sake_gripper               sake gripper with force torque sensor
+    +--stl                          some stl files
+    +--urdf                         some urdf files
+    
+
+  
+# prerequisite
+
+    Some file in solid_file should be open in solidworks2016.Lower version may not open it.
+    
+# LearnMore
+
+    Please visit our Lab on GitHub (birl)[https://github.com/birlrobotics/birl_baxter],and here are the [wiki](https://github.com/birlrobotics/birl_baxter/wiki). 
+    
+  
+
 
 
 ==============
@@ -47,7 +50,5 @@ hello
 hello
 -----
 
-
-[dfsdfdsf]()
 
 
