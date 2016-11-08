@@ -34,7 +34,7 @@ Code will be organized by type of gripper. So far we have the following types:
     
 # LearnMore
 
-  Please visit our Lab on GitHub (birl)[https://github.com/birlrobotics/birl_baxter],and here are the [wiki](https://github.com/birlrobotics/birl_baxter/wiki). 
+  Please visit our Lab on GitHub [birl](https://github.com/birlrobotics/birl_baxter),and here are the [wiki](https://github.com/birlrobotics/birl_baxter/wiki). 
     
   
 
