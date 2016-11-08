@@ -16,15 +16,15 @@ Code will be organized by type of gripper. So far we have the following types:
 
 # Files Composition
 
-.
-+--solid_file                   solidworks file folder
-|   +--endEffectors                
-|   |   +--camera_gripper            camera frame with both  Openhand Project and birl design
-|   |   +--holder                    Pivot Approach Camera Mold 
-|   +--ft_eletric_gripper            electric gripper with force torque sensor 
-|   +--ft_sake_gripper               sake gripper with force torque sensor
-+--stl                          some stl files
-+--urdf                         some urdf files
+    .
+    +--solid_file                   solidworks file folder
+    |   +--endEffectors             
+    |   |   +--camera_gripper            camera frame with both  Openhand Project and birl design
+    |   |   +--holder                    Pivot Approach Camera Mold 
+    |   +--ft_eletric_gripper            electric gripper with force torque sensor 
+    |   +--ft_sake_gripper               sake gripper with force torque sensor
+    +--stl                          some stl files
+    +--urdf                         some urdf files
     
 
   
@@ -36,19 +36,9 @@ Code will be organized by type of gripper. So far we have the following types:
 
   Please visit our Lab on GitHub [birl](https://github.com/birlrobotics/birl_baxter),and here are the [wiki](https://github.com/birlrobotics/birl_baxter/wiki). 
     
-  
-
+    
 
 
 ==============
 
-    /camera_finger
-        
-
-
-
-hello
------
-
-
-
+    /camera_fing
