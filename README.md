@@ -2,7 +2,7 @@ In this folder we will contain programs that manipulate the grippers of the Baxt
 
 # Overview
 
-Code will be organized by type of gripper. So far we have the following types:
+Code will be organized by type of mechanical design of baxter in BIRL. So far we have the following types:
 
 1. Rethink Standard Fingers:   two-finger electric grippers that come with Baxter.
 2. Pivot Approach Camera Mold: Specialized end-effector tool that holds camera molds. Derived from the openhand project. Still uses the standard actuators.
@@ -17,18 +17,18 @@ Code will be organized by type of gripper. So far we have the following types:
 # Files Composition
 
     .
-    +--camera_gripper                snap camera gripper
+    +--camera_gripper                gripper designed for camera snap
     |
-    +--ft
-        |
-        +--ft_electric_gripper       electric gripper of baxter with ft
-        |
-        +--ft_sake_gripper           sake gripper with ft
+    +--ft_design                     two ft design for both electric and sake gripper
+    |
+    +--box                           box model
+    |
+    +--snap                          snap model
 
   
 # prerequisite
 
-   Stl files should be operated in solidworks2016.
+   sld files should be operated in solidworks2016.
     
 # LearnMore
 
