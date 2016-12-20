@@ -1,0 +1,6 @@
+<package>
+  <description brief="camera_female">camera_female</description>
+  <depend package="gazebo" />
+  <author>me</author>
+  <license>BSD</license>
+</package>

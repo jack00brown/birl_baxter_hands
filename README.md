@@ -17,20 +17,18 @@ Code will be organized by type of gripper. So far we have the following types:
 # Files Composition
 
     .
-    +--solid_file                   solidworks file folder
-    |   +--endEffectors             
-    |   |   +--camera_gripper            camera frame with both  Openhand Project and birl design
-    |   |   +--holder                    Pivot Approach Camera Mold 
-    |   +--ft_eletric_gripper            electric gripper with force torque sensor 
-    |   +--ft_sake_gripper               sake gripper with force torque sensor
-    +--stl                          some stl files
-    +--urdf                         some urdf files
-    
+    +--camera_gripper                snap camera gripper
+    |
+    +--ft
+        |
+        +--ft_electric_gripper       electric gripper of baxter with ft
+        |
+        +--ft_sake_gripper           sake gripper with ft
 
   
 # prerequisite
 
-  Some file in solid_file should be open in solidworks2016.Lower version may not open it.
+   Stl files should be operated in solidworks2016.
     
 # LearnMore
 
@@ -39,6 +37,3 @@ Code will be organized by type of gripper. So far we have the following types:
     
 
 
-==============
-
-    /camera_fing

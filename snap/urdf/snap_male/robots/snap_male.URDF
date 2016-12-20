@@ -1,0 +1,43 @@
+<robot
+  name="snap_male">
+  <link
+    name="snap_male">
+    <inertial>
+      <origin
+        xyz="-2.0058E-18 -2.0817E-17 0.012891"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="8.7571E-06"
+        ixy="-3.3914E-21"
+        ixz="3.8806E-22"
+        iyy="3.844E-06"
+        iyz="5.739E-22"
+        izz="1.1888E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://snap_male/meshes/snap_male.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://snap_male/meshes/snap_male.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
