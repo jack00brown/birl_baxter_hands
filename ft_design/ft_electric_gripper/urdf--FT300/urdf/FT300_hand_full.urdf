@@ -1,0 +1,153 @@
+<robot
+  name="FT300_hand_full">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.081263 -0.1051 0.094987"
+        rpy="0 0 0" />
+      <mass
+        value="0.09497" />
+      <inertia
+        ixx="5.1014E-05"
+        ixy="5.7163E-08"
+        ixz="1.2364E-06"
+        iyy="9.5615E-05"
+        iyz="2.554E-08"
+        izz="4.8799E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FT300_hand_full/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="PLA">
+        <color
+          rgba="0 1 1 1" />
+        <texture
+          filename="" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FT300_hand_full/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="0.00023939 0.016676 0.00010696"
+        rpy="0 0 0" />
+      <mass
+        value="0.3" />
+      <inertia
+        ixx="0.00018688"
+        ixy="-2.933E-07"
+        ixz="-1.585E-06"
+        iyy="0.00028356"
+        iyz="-1.3104E-07"
+        izz="0.00018972" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FT300_hand_full/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="356.0-T6">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FT300_hand_full/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_1"
+    type="fixed">
+    <origin
+      xyz="0 -0.0053362 0.0187"
+      rpy="1.5708 0 1.991" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="0.0047372 -0.013591 0.0060189"
+        rpy="0 0 0" />
+      <mass
+        value="0.069702" />
+      <inertia
+        ixx="3.4708E-05"
+        ixy="1.1553E-12"
+        ixz="5.7154E-08"
+        iyy="3.2833E-05"
+        iyz="-3.8686E-14"
+        izz="6.5643E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FT300_hand_full/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="PLA">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://FT300_hand_full/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_2"
+    type="fixed">
+    <origin
+      xyz="-0.0048682 0.0482 0.01271"
+      rpy="1.5708 -0.42018 0" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
